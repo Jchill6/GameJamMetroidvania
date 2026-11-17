@@ -7,8 +7,11 @@
 
 [node name="Sonic" type="CharacterBody2D" unique_id=1729818099]
 script = ExtResource("1_otb0b")
+speed = 6.0
+jump_power = 12.0
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1641270930]
+zoom = Vector2(3, 3)
 
 [node name="AgentAnimator" type="Node2D" parent="." unique_id=785872866]
 
