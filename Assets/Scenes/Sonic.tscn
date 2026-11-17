@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://d7gy81l0dsh0"]
+
+[ext_resource type="Texture2D" uid="uid://bqqgnvqakn75r" path="res://addons/sonic.png" id="1_h51dy"]
+[ext_resource type="Script" uid="uid://cg2ndaibpen5p" path="res://Assets/Scripts/Player_controller.gd" id="1_otb0b"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3jcyw"]
+
+[node name="Sonic" type="CharacterBody2D" unique_id=1729818099]
+script = ExtResource("1_otb0b")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1641270930]
+
+[node name="AgentAnimator" type="Node2D" parent="." unique_id=785872866]
+
+[node name="Sprite2D" type="Sprite2D" parent="AgentAnimator" unique_id=483753576]
+position = Vector2(0, -15.75)
+scale = Vector2(1, 1.016129)
+texture = ExtResource("1_h51dy")
+region_enabled = true
+region_rect = Rect2(1, 24, 24, 31)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AgentAnimator" unique_id=1517388669]
+root_node = NodePath("../..")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=397489159]
+position = Vector2(0, -15)
+shape = SubResource("CapsuleShape2D_3jcyw")

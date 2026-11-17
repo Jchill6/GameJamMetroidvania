@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bth2i4fm1mhnx"
-path="res://.godot/imported/Daisy1.png-4455736e04c1d7bbf4fe2e67abdf9e83.ctex"
+uid="uid://ctdt8obmpyot7"
+path="res://.godot/imported/1bit-platformer.png-a046a4525e72b1aa68179f1ce3869d53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Daisy1.png"
-dest_files=["res://.godot/imported/Daisy1.png-4455736e04c1d7bbf4fe2e67abdf9e83.ctex"]
+source_file="res://addons/1bit-platformer.png"
+dest_files=["res://.godot/imported/1bit-platformer.png-a046a4525e72b1aa68179f1ce3869d53.ctex"]
 
 [params]
 

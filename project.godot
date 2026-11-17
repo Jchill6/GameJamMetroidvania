@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="MVMFinal"
-run/main_scene="uid://71u0w1fjrcsh"
+run/main_scene="uid://cft2fy8rf12fc"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]
@@ -25,4 +25,5 @@ window/stretch/aspect="expand"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
